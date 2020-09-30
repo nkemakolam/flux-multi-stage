@@ -21,3 +21,6 @@ this would creat for you a clean cluster instance to worl with.
 --git-url=git@github.com:${GHUSER}/flux-multi-stage \
 --namespace=flux | kubectl apply -f - 
 
+8. once this command succefully run the to generate the public key of flux run the followimh command
+`fluxctl identity --k8s-fwd-ns flux`
+
